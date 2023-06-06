@@ -8,10 +8,13 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+.jflex{
+    display: flex;
+}
 .rose{
     color: #dd6dbb;
 }
-h1,p,div,a,h2,h3,h4,h5,h6{
+h1,p,div,a,h2,h3,h4,h5,h6,body,ul{
     margin: 0;
 }
 h1{
@@ -32,11 +35,14 @@ img{
     padding-right: 25%;
     font-size: 25px;
     color: #67dcff;
+    position: relative;
 }
 .numero{    
+    width: 100%;
     position: absolute;
-    right: 43.5%;
-    top: 5.5%;
+    right: -7.5%;
+    top: 40%;
+    font-size: 18px;
     color: #67dcff;
 }
 .panier{
@@ -60,12 +66,34 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 0;
+    margin-top: 10px;
 }
 li{
     padding-top: 15px;
     padding-bottom: 14px;
 }
 
-a{
+nav a{
+    color: white;
     text-decoration: none;
+}
+.sec2{
+    background-color: #eff0ef;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec2 h2{
+    color: #67dcff;
+    font-size: 22px;
+}
+.sec2 p{
+    font-size: 30px;
+}
+.pay{
+    width: 200px;
+}
+hr{
+    margin: 0;
+    height: 300px;
 }
