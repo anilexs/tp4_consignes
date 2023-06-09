@@ -1,15 +1,30 @@
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: #c8c8c8;
 }
 .flex{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+}
+.mide{
+    display: flex;
+    align-items: center;
 }
 .jflex{
     display: flex;
+    
+}
+.jflex img{
+    width: 50px;
+}
+.mide {
+    position: relative;
+}
+.mide h2{
+   position: absolute;
+   bottom: 90%;
 }
 .rose{
     color: #dd6dbb;
@@ -29,7 +44,7 @@ img{
     padding-right: 2%;
 }
 .boutqiue{
-    padding-right: 23%;
+    padding-right: 30%;
 }
 .help{
     padding-right: 25%;
@@ -47,6 +62,9 @@ img{
 }
 .panier{
     display: flex;
+}
+.aconte{
+    margin-left: 116px;
 }
 .conte1{
     background-color: #67dcff;
@@ -72,16 +90,28 @@ li{
     padding-top: 15px;
     padding-bottom: 14px;
 }
-
+.actife{
+    background-color: #e024a8;
+    width: 16.67%;
+}
+nav > ul >div{
+    width: 16.67%;
+    text-align: center;
+}
 nav a{
     color: white;
     text-decoration: none;
 }
+
+.bandeau{
+    margin-bottom: -10px;
+}
 .sec2{
     background-color: #eff0ef;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: space-evenly;
-    align-items: center;
 }
 .sec2 h2{
     color: #67dcff;
@@ -91,9 +121,99 @@ nav a{
     font-size: 30px;
 }
 .pay{
-    width: 200px;
+    width: 350px;
 }
 hr{
     margin: 0;
-    height: 300px;
+    height: 250px;
+}
+.secpay{
+    font-size: 30px;
+    margin-right: 50px;
+}
+.boxsize{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eff0ef;
+    padding-bottom: 30px;
+}
+.boxhead p{
+    text-align: center;
+    padding: 20px;
+}
+.boxhead{
+    background-color:#cfcfcf;
+}
+.pours3{
+    width: 30%;
+}
+.pours4{
+    width: 70%;
+    padding: 20px;
+}
+.box1 img{
+    padding-top: 20px;
+    width: 600px;
+}
+.box1 p:nth-child(2){
+    font-size: 20px;
+}
+.pb2{
+    font-size: 20px;
+}
+
+.box2,.box1,.box3{
+    height: 330px;
+}
+.box2 img{
+    padding-top: 30px;
+}
+.box3 img{
+    padding: 30px;
+    width: 200px;
+}
+.box1,.box2,.box3{
+    width: 32%;
+    box-shadow: 0px 0px 10px 5px gray;
+}
+.pbox1{
+    padding: 30px;
+}
+.pb3{
+    padding: 10px;
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: #67dcff;
+}
+footer ul{
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+.Voir a{
+    color: #67dcff;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.Voir2 a{
+    color: #67dcff;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+.Voir3 a{
+    color: #67dcff;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    padding-top: 20px;
 }
